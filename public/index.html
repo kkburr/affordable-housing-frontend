@@ -2,12 +2,13 @@
 <html>
   <head>
     <link rel="stylesheet" href="/css/map.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
     <meta charset="utf-8">
     <title>NeighborHome</title>
   </head>
   <body>
     <div id="container"></div>
-    <script src="main.bundle.js"></script>
     <script src="http://neighborhome.herokuapp.com/assets/application-dd7099294953d4056c6dc00ffb68511d72f5e9b5d9c1d0aa0aa257de536021ed.js"></script>
     <script src='//api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
     <link href='//api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
@@ -15,6 +16,6 @@
       L.mapbox.accessToken = 'pk.eyJ1IjoianVseXl0cmFuIiwiYSI6ImNpbXMzbmtrYzAxYzh3Ymx1aGU5bWZuMzAifQ.DjfzN_9iu_oXX2TnI_-r4g';
       var map = L.mapbox.map('map').setView([39.737074, -104.953460], 12);
     </script>
-    <script src="https://npmcdn.com/react-leaflet/dist/react-leaflet.min.js"></script>
+    <script src="main.bundle.js"></script>
   </body>
 </html>

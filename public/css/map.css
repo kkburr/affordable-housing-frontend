@@ -8,7 +8,7 @@ body {
   top:0;
   bottom:0;
   position:absolute;
-  width:71.8%;
+  width:100%;
   border: solid 1px;
 }
 
@@ -54,4 +54,8 @@ body {
 
 .menu-ui a.active:hover {
   background:#3074a4;
+}
+
+.ui.input {
+  display: block;
 }
