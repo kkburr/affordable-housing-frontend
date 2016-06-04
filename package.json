@@ -29,12 +29,15 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+    "css-loader": "^0.15.5",
+    "d3": "^3.5.16",
     "express": "^4.13.3",
+    "google-maps": "^3.2.1",
+    "jquery": "^2.2.1",
     "react": "^0.14.3",
     "react-addons": "^0.9.1-deprecated",
     "react-dom": "^0.14.3",
     "style-loader": "^0.12.4",
-    "css-loader": "^0.15.5",
     "webpack": "^1.12.9"
   }
 }
