@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="/css/master.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/css/map.css" media="screen" title="no title" charset="utf-8">
     <meta charset="utf-8">
-    <title>boilerplate</title>
+    <title>NeighborHome</title>
   </head>
   <body>
     <div id="container"></div>
+     <div id="map-container">
+       <nav id='menu-ui' class='menu-ui'></nav>
+       <div id='map'></div>
+    </div>
   </body>
   <script src="main.bundle.js"></script>
+  <script src="http://neighborhome.herokuapp.com/assets/application-dd7099294953d4056c6dc00ffb68511d72f5e9b5d9c1d0aa0aa257de536021ed.js"></script>
+  <script src='//api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+  <link href='//api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+  <script type='text/javascript'>
+  L.mapbox.accessToken = 'pk.eyJ1IjoianVseXl0cmFuIiwiYSI6ImNpbXMzbmtrYzAxYzh3Ymx1aGU5bWZuMzAifQ.DjfzN_9iu_oXX2TnI_-r4g';
+  var map = L.mapbox.map('map').setView([39.737074, -104.953460], 12);
+  </script>
 </html>
